@@ -41,3 +41,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function(event){
 });
 
 weather.fetchWeather("Athens");
+document.querySelector(".search-bar").value = "Athens";
